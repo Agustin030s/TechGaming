@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/background.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.a1{
+    color: #FF6FFF ;
+}
+.a2{
+    color: #00FFCC ;
+}
+.a3{
+    color: #00FF00 ;
+}
+.a4{
+    color: #00FFFF ;
+    background-color: #ffffff;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.boton{
+    text-align: center;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9752275910364145) 25%, rgba(145,0,255,1) 100%);
+}
+.boton2{
+    text-align: center;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9752275910364145) 20%, rgba(0,255,222,1) 100%);
+}
+.boton3{
+    text-align: center;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9752275910364145) 19%, rgba(83,20,93,1) 43%, rgba(222,0,255,1) 100%);
+}
+
+.boton3:hover{
+    transition: 1s, cubic-bezier(1, 0, 0, 1);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9752275910364145) 59%, rgba(83,20,93,1) 93%, rgba(222,0,255,1) 100%);
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.735);
+}
+
+.section--products{
+    gap: 36px;
+    margin: 200px 0px;
+}
+.section--products h2{
+    margin-left: 8%;
+    font-size: 60px;
+}
+
+
+
+.card{
+    background-color: #fff0 !important;
+    color: white;
+}
+
+.section--products__span{
+    color: #c113c1;
+}
+
+
+#Services{
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0px;
+}
+
+.section--categories__card {
+    width: 24rem;
+    height: 36rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: #f0f0f0;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .section--categories__card img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    transition: opacity 0.2s ease-out;
+  }
+  .section--categories__card h2 {
+    position: absolute;
+    inset: auto auto 60px 60px;
+    margin: 0px;
+    transition: inset 0.3s 0.3s ease-out;
+  }
+
+  .section--categories__card p {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    font-size: 17px;
+    transition: opacity 0.3s ease-out;
+  }
+  .section--categories__card a {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    font-size: 17px;
+    transition: opacity 0s ease-out;
+  }
+  .section--categories__card p {
+    inset: auto auto 80px 30px;
+  }
+  .section--categories__card:hover h2 {
+    inset: auto auto 250px 30px;
+    transition: inset 0.3s ease-out;
+  }
+
+  .section--categories__card:hover p {
+    opacity: 1;
+    transition: opacity 0.5s 0.1s ease-in;
+  }
+  .section--categories__card:hover a {
+    opacity: 1;
+    transition: opacity 0.5s 0.1s ease-in;
+    inset: auto auto 40px 100px;
+  }
+  .section--categories__card:hover img {
+    transition: opacity 0.3s ease-in;
+    opacity: 1;
+    filter: brightness(0.3);
+  }
