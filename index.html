@@ -81,10 +81,10 @@
       </button>
     </div>
   </header>
-    <main class="container-fluid d-flex justify-content-center">
-      <section class="container-fluid section--categories">
-        <article id="Services" class="d-flex justify-content-evenly">
-            <div class = "section--categories__card">
+    <main class="container-fluid d-flex justify-content-center p-0">
+      <section class="container p-0 section--categories w-100">
+        <article id="Services" class="row container ">
+        <div class = "section--categories__card w-100 col-sm-12">
                 <img src="./img/componentes.jpg" alt="Esta es una card en la cual te dirige a la categoría de componentes de Techgaming">
                 <div class="card-content">
                   <h2>
@@ -96,7 +96,7 @@
                 <a href="#" class="btn boton3"> Ir a componentes</a>
             </div>
         </div>
-        <div class="section--categories__card">
+        <div class="section--categories__card w-100 col-sm-12 ">
             <img src="./img/perifericos.jpg" alt="Esta es una card en la cual te dirige a la categoría de perifericos de Techgaming">
             <div class="card-content">
                 <h2>
@@ -111,7 +111,7 @@
                 <a href="#" class="btn boton3"> Ir a Perifericos</a>
             </div>
         </div>
-        <div class="section--categories__card">
+        <div class="section--categories__card w-100 col-sm-12">
             <img src="./img/notebook-categories.png" alt="Esta es una card en la cual te dirige a la categoría de notebooks de Techgaming">
             <div class="card-content">
                 <h2>
@@ -126,8 +126,8 @@
                 <a href="#" class="btn boton3"> Ir a Notebooks</a>
                 </div>
               </div>
-              <div class = "section--categories__card">
-                <img src="./img/compotadura-categoies.jpg" alt="Esta es una card en la cual te dirige a la categoría de Computadoras de Techgaming">
+              <div class = "section--categories__card w-100  col-sm-12 ">
+                <img src="./img/compotadura-categoies.jpg " alt="Esta es una card en la cual te dirige a la categoría de Computadoras de Techgaming">
                 <div class="card-content">
                   <h2>
                     Computadoras Armadas
@@ -146,110 +146,111 @@
       </section>
       <section class="container-fluid d-flex flex-column section--products ">
         <h2>Insumos <span class="section--products__span">Populares</span></h2>
-        <article class="d-flex justify-content-evenly w-100">
+        <article class="d-flex justify-content-evenly flex-wrap w-100">
           <div class="card" style="width: 21rem;">
-            <img src="./img/placa1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/placa1.jpg" class="card-img-top" alt="AMD Radeon RX 6800">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Placa de Video <span class="marca-modelo">AMD Radeon RX 6800</span></h5>
+              <p class="card-text">Experimenta el poder gráfico sin igual con la Nvidia GeForce RTX 3080. Rendimiento de vanguardia para juegos y creación de contenido.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card" style="width: 21rem;"">
-            <img src="./img/placa2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/placa2.jpg" class="card-img-top" alt="Nvidia GeForce RTX 3080">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Placa de Video <span class="marca-modelo">Nvidia GeForce RTX 3080</span></h5>
+              <p class="card-text">La AMD Radeon RX 6800 ofrece un rendimiento gráfico excepcional. Juega y crea con una calidad visual impresionante.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card section--products__disappear" style="width: 21rem;">
-            <img src="./img/proce.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/proce.jpg" class="card-img-top" alt="Ryzen 9 5900X">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Procesador AMD <span class="marca-modelo">Ryzen 9 5900X</span></h5>
+              <p class="card-text">Domina la velocidad y la eficiencia con el procesador AMD Ryzen 9 5900X. Ideal para tareas exigentes y juegos de alto nivel.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
         </article>
         <h2>Computadoras Armadas <span class="section--products__span">Populares</span></h2>
-        <article class="d-flex justify-content-evenly">
+        <article class="d-flex justify-content-evenly flex-wrap ">
           <div class="card" style="width: 21rem;">
-            <img src="./img/pc1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/pc1.jpg" class="card-img-top" alt="HyperTech A2000">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">PC Armada <span class="marca-modelo">HyperTech A2000</span></h5>
+              <p class="card-text">Potencia y versatilidad se unen en la PC armada HyperTech A2000. Diseñada para tareas intensivas y juegos de alto rendimiento.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card" style="width: 21rem;">
-            <img src="./img/pc2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/pc2.jpg" class="card-img-top" alt="HyperTech A5600">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">PC Armada <span class="marca-modelo">HyperTech A5600</span></h5>
+              <p class="card-text">Potencia y versatilidad se unen en la PC armada HyperTech A5600. Diseñada para tareas intensivas y juegos de alto rendimiento.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card section--products__disappear" style="width: 21rem;">
-            <img src="./img/pc3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/pc3.jpg" class="card-img-top" alt="NovaTech Z700">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">PC Armada <span class="marca-modelo">NovaTech Z700</span></h5>
+              <p class="card-text">La PC armada NovaTech Z700 es la elección perfecta para usuarios profesionales y creativos. Rendimiento y confiabilidad excepcionales.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
         </article>
         <h2>Perifericos <span class="section--products__span">Populares</span></h2>
-        <article class="d-flex justify-content-evenly">
+        <article class="d-flex justify-content-evenly flex-wrap ">
           <div class="card" style="width: 21rem;">
-            <img src="./img/peri1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/peri1.jpg" class="card-img-top" alt="HyperSound x2000">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Auriculares <span>HyperSound x2000</span> </h5>
+              <p class="card-text">Sumérgete en el sonido envolvente con los auriculares HyperSound X2000 de HyperSound. Disfruta de una experiencia auditiva inigualable.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card" style="width: 21rem;">
-            <img src="./img/peri2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/peri2.jpg" class="card-img-top" alt="HyperPrecision H600">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Mouse <span class="marca">HyperPrecision H600</span> </h5>
+              <p class="card-text">Domina cada movimiento con el mouse HyperPrecision H600 de HyperSound. Equipado con tecnología de seguimiento avanzada.</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card section--products__disappear" style="width: 21rem;">
-            <img src="./img/peri3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/peri3.jpg" class="card-img-top" alt="HyperType T800">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Teclado <span class="marca">HyperType T800</span> </h5>
+    <p class="card-text">Eleva tu experiencia de escritura con el teclado HyperType T800 de HyperSound. Retroiluminación personalizable y teclas de respuesta rápida.</p>
+    <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
         </article>
         <h2>Notebooks <span class="section--products__span">Populares</span></h2>
-        <article class="d-flex justify-content-evenly">
+        <article class="d-flex justify-content-evenly flex-wrap ">
           <div class="card" style="width: 21rem;">
-            <img src="./img/notebook1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/notebook1.jpg" class="card-img-top" alt="UltraSlim X">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Notebook <span>UltraSlim X1</span> 
+              </h5>
+              <p class="card-text">  Descubre la revolución de la productividad con el Notebook UltraSlim X1 de TechWave. Este elegante portátil ultradelgado es una obra maestra de la ingeniería</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card" style="width: 21rem;">
-            <img src="./img/notebook2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/notebook2.jpg" class="card-img-top" alt="QuantumBook Pro">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Notebook  <span>QuantumBook Pro</span></h5>
+              <p class="card-text">QuantumBook Pro de QuantumTech. Este dispositivo es la encarnación de la potencia cuántica en un portátil. Equipado con gráficos avanzados y una batería de larga duración, te permitirá crear, jugar y trabajar sin límites</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
           <div class="card section--products__disappear" style="width: 21rem;">
-            <img src="./img/notebook3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./img/notebook3.jpg" class="card-img-top" alt="SwiftStream 15">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Notebook <span>SwiftStream 15</span> </h5>
+              <p class="card-text"> El Notebook SwiftStream 15R de SwiftGear es tu compañero perfecto para el trabajo y el entretenimiento. Su diseño ligero y elegante se adapta a tu estilo de vida .</p>
+              <a href="#" class="btn boton2">Comprar Ahora</a>
             </div>
           </div>
         </article>

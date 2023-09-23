@@ -55,6 +55,10 @@ p{
     
 }
 
+span{
+  color: #00FFFF;
+}
+
 
 .boton{
     text-align: center;
@@ -101,6 +105,10 @@ nav{
     color: white;
 }
 
+.card-body{
+  background: rgba(0, 0, 0, 0.264);
+}
+
 .section--products__span{
     color: #c113c1;
 }
@@ -110,6 +118,7 @@ nav{
     display: flex;
     justify-content: space-around;
     margin: 10vh 0px;
+    gap: 16px;
 }
 
 .section--categories__card {
@@ -144,7 +153,7 @@ nav{
   .section--categories__card p {
     position: absolute;
     opacity: 0;
-    max-width: 80%;
+    max-width: 70ch;
     font-size: 17px;
     transition: opacity 0.3s ease-out;
   }
@@ -159,7 +168,7 @@ nav{
     inset: auto auto 80px 30px;
   }
   .section--categories__card:hover h2 {
-    inset: auto auto 250px 30px;
+    inset: auto auto 170px 30px;
     transition: inset 0.3s ease-out;
   }
 
@@ -170,7 +179,7 @@ nav{
   .section--categories__card:hover a {
     opacity: 1;
     transition: opacity 0.5s 0.1s ease-in;
-    inset: auto auto 40px 100px;
+    inset: auto auto 40px 30px;
   }
   .section--categories__card:hover img {
     transition: opacity 0.3s ease-in;
@@ -196,4 +205,37 @@ nav{
   }
   .section--contact__contact p{
     font-size: 30px;
+  }
+
+  @media (max-width: 575.98px){
+    main--home{
+      padding-right: 0px !important;
+    }
+
+    .section--categories{
+      padding: 0px;
+    }
+
+    .section--categories__card:hover h2 {
+      inset: auto auto 250px 30px;
+      transition: inset 0.3s ease-out;
+    }
+    .section--categories__card:hover a {
+      opacity: 1;
+      transition: opacity 0.5s 0.1s ease-in;
+      inset: auto auto 40px 80px;
+    }
+    #Services{
+      gap: 20px;
+    }
+
+  }
+
+  @media (max-width: 991.98px){
+    .section--contact__ads{
+      display: none;
+    }
+    .section--contact__contact{
+      width: 100% !important;
+    }
   }
