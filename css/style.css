@@ -207,10 +207,13 @@ nav{
     font-size: 30px;
   }
 
+  .section--cart__products{
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.296);
+    border-radius: 25px;
+  }
+
   @media (max-width: 575.98px){
-    main--home{
-      padding-right: 0px !important;
-    }
 
     .section--categories{
       padding: 0px;
