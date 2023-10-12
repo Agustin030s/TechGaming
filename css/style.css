@@ -134,6 +134,10 @@ span {
   );
 }
 
+.header--home{
+  margin-top: 72px;
+}
+
 .navBarPrincipal {
   background: rgba(0, 0, 0, 0.735);
 }
@@ -396,6 +400,10 @@ span {
   object-fit:cover;
 }
 
+.navbar-collapse{
+  margin-top: 16px;
+}
+
 .btnCart {
   font-family: 'Poppins', sans-serif;
   font-size: smaller;
@@ -523,8 +531,43 @@ span {
   }
 }
 
-.active{
-  background-color: #c113c1;
-  border-radius: 10px;
+@media (max-width: 320px) {
+
+  .header--home{
+    margin-top: 120px;
+  }
+
+  .navbar .container{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section--products h2 {
+    font-size: 50px;
+}
+.section--contact__contact h2 {
+  font-size: 50px;
+}
+.section--categories__card:hover h2 {
+  inset: auto auto 330px 30px;
+  transition: inset 0.3s ease-out;
+}
+.section--categories__card:hover a {
+  opacity: 1;
+  transition: opacity 0.5s 0.1s ease-in;
+  inset: auto auto 40px 60px;
+}
 }
 
+.active{
+  font-family: "Poppins", sans-serif;
+  background-color: #c113c1 !important;
+}
+
+
+.navbar{
+  font-family: "Poppins", sans-serif;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #c113c1;
+}
