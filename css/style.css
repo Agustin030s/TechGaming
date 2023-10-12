@@ -558,7 +558,7 @@ span {
 }
 }
 
-.active{
+.nav-item .active{
   font-family: "Poppins", sans-serif;
   background-color: #c113c1 !important;
 }
