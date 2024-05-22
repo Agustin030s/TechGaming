@@ -21,6 +21,6 @@ Este proyecto es un ecommerce diseñado para la venta de componentes de PC, desd
 ¡Y eso es todo! Ahora podrás explorar la interfaz de usuario de TechGaming y familiarizarte con su diseño.
 
 ## Prueba
-Puedes visualizar la página desde el siguiente enlace: https://techgaming-rc.netlify.app/?
+Puedes visualizar la página desde el siguiente enlace: https://techgaming-rc.netlify.app/
 
 
